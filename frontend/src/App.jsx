@@ -9,9 +9,6 @@ import MenuPage from "./pages/MenuPage";
 const App = () => {
   return (
     <div className="bg-[#F5F3EE] min-h-screen">
-      <Navbar />
-      <Hero />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/restaurant/:id" element={<RestaurantDetail />} />

@@ -18,7 +18,7 @@ const DetailNavbar = ({ cartTotal }) => {
           </svg>
         </div>
         <span className="font-bold text-2xl text-[#F4521E] tracking-tight">
-          Bhojan<span className="text-[#151515]">Go</span>
+          BhojanGo
         </span>
       </Link>
 
